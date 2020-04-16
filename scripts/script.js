@@ -1,5 +1,5 @@
 // alert("Hello world!")
-
-function SendIt(e) {
-
+function SendIt() {
+    var COPS = document.getElementById("name-input").value;
+    console.log(COPS)
 }
