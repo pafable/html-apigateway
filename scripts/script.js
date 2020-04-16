@@ -1,5 +1,11 @@
 // alert("Hello world!")
 function SendIt() {
-    var COPS = document.getElementById("name-input").value;
-    console.log(COPS)
-}
+    var NAME = document.getElementById("name-input").value;
+    var EMAIL = document.getElementById("email-input").value;
+    var data = JSON.stringify({name: NAME, email: EMAIL});
+    // fetch('APIGATEWAY-URL', { 
+    //     method: 'POST', 
+    //     body: data 
+    // });
+    console.log(data)
+} 
