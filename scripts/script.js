@@ -7,5 +7,5 @@ function SendIt() {
         'Content-Type': 'application/json',
         body: data 
     });
-    console.log(data)
+    // alert((data))
 } 
