@@ -5,7 +5,6 @@ function SendIt() {
     fetch('https://hks34l21be.execute-api.us-east-2.amazonaws.com/woot', { 
         method: 'POST',
         'Content-Type': 'application/json',
-        Access-Control-Allow-Origin: *,
         body: data 
     });
     console.log(data)
